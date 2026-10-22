@@ -39,6 +39,8 @@ Immer `main.py` starten, nicht `game_loop.py` (wegen des zirkulären Imports).
 | `ESC`        | Pause-Menü                |
 | `W` / `S` + `Enter` | Menü bedienen      |
 
+![Gameplay](screenshots/gameplay.png)
+
 ## Powerups
 
 | Item | Wirkung |
@@ -49,13 +51,15 @@ Immer `main.py` starten, nicht `game_loop.py` (wegen des zirkulären Imports).
 | Shockwave | Druckwelle, die Asteroiden und gegnerische Schüsse zerstört |
 | 4-Way-Shoot | Schüsse in vier Richtungen |
 
-![Schild und Gegner](screenshots/shield.png)
+![Powerups einsammeln](screenshots/powerups2.png)
+
+![Schild und Gegner](screenshots/gegner.png)
 
 ## Highscore
 
 Nach dem Game-Over trägst du deinen Namen ein, die Ergebnisse landen in einer lokalen SQLite-Datenbank (`scores.db`).
 
-![Namenseingabe](screenshots/highscore.png)
+![Namenseingabe](screenshots/scoreboard.png)
 
 ## Einstellungen
 
