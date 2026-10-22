@@ -3,8 +3,8 @@
 ## Starten
 
 ```bash
-# Nach install.sh (einmalig ausführen):
-bash install.sh
+# Einmalig ausführen (apt/pacman, ruft install.sh auf):
+bash setup.sh
 source ~/.bashrc
 spacegame        # von überall startbar
 
@@ -29,6 +29,7 @@ BgMove.py        — scrollender Hintergrund
 menu.py          — class Menu, class SettingsMenu
 scoreboard.py    — Highscore-Eingabe und -Anzeige (SQLite)
 settings.py      — load/save settings.json, Display-Erstellung, Auto-Detection
+setup.sh         — erkennt apt/pacman, installiert Python-Pakete, ruft install.sh auf
 install.sh       — idempotenter Installer (venv + spacegame-Alias)
 settings.json    — gespeicherte Nutzereinstellungen (fullscreen, res_index)
 scores.db        — SQLite-Datenbank für Highscores

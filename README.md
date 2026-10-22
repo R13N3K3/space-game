@@ -8,16 +8,16 @@ Ein einfaches 2D-Weltraumspiel mit Powerups und Highscore-Liste, entwickelt mit 
 
 ## Installation
 
-Voraussetzung: Python 3 (mit `venv`) und git.
+Unterstützt Systeme mit `apt` (Debian, Ubuntu, Mint …) und `pacman` (Arch, Manjaro, CachyOS …).
 
 ```bash
 git clone https://github.com/bawsuser/space_game.git
 cd space_game/
-bash install.sh
+bash setup.sh
 source ~/.bashrc
 ```
 
-`install.sh` legt ein virtuelles Environment (`.venv`) an, installiert `pygame-ce` und richtet den Alias `spacegame` in `~/.bashrc` ein. Das Skript kann beliebig oft ausgeführt werden.
+`setup.sh` erkennt den Paketmanager, installiert fehlendes Python (inkl. venv und pip) und ruft dann `install.sh` auf. Das legt ein virtuelles Environment (`.venv`) an, installiert `pygame-ce` und richtet den Alias `spacegame` in `~/.bashrc` ein. Beide Skripte können beliebig oft ausgeführt werden.
 
 ## Starten
 
